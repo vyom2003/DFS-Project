@@ -1,0 +1,50 @@
+[
+  {
+    "id":1,
+    "HeadingText":"What is Data Foundation?",
+    "SubHeadingText":"",
+    "Paragraphs":["The Data Foundation will host a library of digital data, and will encompass the technology-platform, infrastructure and manpower to collect, create, curate, annotate, secure and deploy it. It will be a major resource for the technology community, researchers and application developers who need such data for developing solutions driven by AI and analytics in socially-relevant domains such as Healthcare, Mobility, Buildings, Systems, and their application in the Indian context.", "State of art technology in data analytics and AI available nationally and globally has proven its capabilities and benefits in several domains. Yet, critical gaps remain, as they require large, curated datasets, annotated specifically for each domain problem that needs to be addressed. Identifying and solving the problems that will streamline the building of valuable datasets is a critical need of the day. Some interesting and difficult challenges that present themselves in this context are described below."]
+  },
+  {
+    "id":2,
+    "HeadingText":"",
+    "SubHeadingText":"Technical Challenges",
+    "Paragraphs":[]
+  },
+  {
+    "id":3,
+    "HeadingText":"",
+    "SubHeadingText":"Universality",
+    "Paragraphs":["The technology-platform to be built for the Data Foundation should be usable across domains. Today, data analytics along with modern machine learning is a mature technology with several open and commercial implementations that are fast, accurate and scalable when designed for any particular application.", "However, scaling data analytics across domains remains a major challenge for the data analytics community, both nationally and globally. The bottle-neck in this endeavour lies in developing a deep understanding and abstraction of the needs of the domain, along with the knowledge of possibilities of modern analytics and machine learning solutions. Such abstraction and identification of needs and possibilities requires the continuous engagement of collaborating inter-disciplinary researchers, and is not a task that can be easily packaged and off-sourced to the industry.", "The platform to be built needs to capture the aspects that are common in such engagements, while allowing flexibility and configurability in aspects that are diverse across domains."]
+  },
+  {
+    "id":4,
+    "HeadingText":"",
+    "SubHeadingText":"Scalability",
+    "Paragraphs":["The volume, velocity and variety of data captured in domains like healthcare and mobility pose unique challenges. Traditional issues such as scaling up (by adding more storage) or scaling out (by adding additional servers) need to be re-considered in the context of multiple varieties of requirements across domains. Additionally, novel issues in a platform view point arise. Resources need to be allocated, commissioned, decommissioned and recommissioned appropriately depending on the storage and computation need, which can change drastically across project lifetimes for each dataset.", "Data model design needs to be flexible to cater to the variety of different sources of data that may come with different conventions, fields, labels, formats and missing values. Potential queries and use-cases need to be estimated, and used to optimize data model design, while ensuring scalability. Solutions would lie in the plethora of new NoSQL solutions present today, or may need to be built/added on/integrated. Navigating the NoSQL solution landscape for this context is itself mind-boggling, with 350+ technology alternatives as of September 2021 (https://db-engines.com/en/ranking).", "These are interesting challenges, as solving them paves the way to solve common pain-points across projects and domains with common solutions and methodologies."]
+  },
+  {
+    "id":5,
+    "HeadingText":"",
+    "SubHeadingText":"Privacy and Security",
+    "Paragraphs":["Data is expected and mandated by national and international standards to abide by, protect and advance citizen’s privacy rights. Data that is collected comes with a range of privacy and security requirements. Healthcare data is of particular concern, having been considered worthy of protection ever since the hippocratic oath.", "On the other hand, there is a global need to be able to study and analyze healthcare data, in order to advance the field, to cure and prevent disease. Depending on the nature of data, suitable privacy-preservation measures need to be adopted such as anonymization, randomization, encryption, role-based access, etc. Additionally, appropriate usage agreement guidelines and protocols need to identified and implemented to allow the use of such data for research purposes, while following mandated ethics agreements.", "Data also needs to be protected for other reasons. Often, researchers engage in building datasets with a keen interest in having the first opportunity to be able to study and analyze them and attain credit for novel research. Mechanisms need to be implemented to make datasets available in secure ways with role-based access to only limited groups of people, and allow the datasets to be published later, in possibly multiple versions."]
+  },
+  {
+    "id":6,
+    "HeadingText":"",
+    "SubHeadingText":"Automation in Data Collection, Curation and Annotation",
+    "Paragraphs":["Collection, curation and annotation of data is a tedious endeavour. The challenges in this arena are two-fold: (1) To build, maintain and manage teams or crowds of skilled data-workers, allocating them a steady supply of skill-appropriate tasks, maintaining quality control and motivation. (2) To build a toolkit that enables automation of those data tasks that can be automated. This includes domain-specific and domain-agnostic tools such as data scrapers, format convertors, annotation tools, etc. There is ample scope for developing several novel machine learning based methods for such automation.", "Automation requires the data to be validated subsequently with manual expert or non-expert help. To make the data usable, it often needs to be annotated using the vocabulary and practices of the underlying domain. This requires significant time of appropriate experts, by itself a difficult and costly task.", "It is reasonably obvious that the process of creating and collating data is time-consuming, tedious, and expensive. For managing teams of data-workers, a project management platform built for such purposes needs to be built and/or deployed. The Data Foundation has its target the creation of 20-25 high-impact data sets in varied domains, by employing a team of data workers for transcription, curation, annotation, etc."]
+  },
+  {
+    "id":7,
+    "HeadingText":"",
+    "SubHeadingText":"Algorithms for Core Data Analytics and Machine Learning",
+    "Paragraphs":["Part of the Data Foundation activity is to promote overall research to produce novel algorithms and improve existing algorithms for data analytics and machine learning. Of specific interest is the effective application of these algorithms to socially relevant applications. Another interesting research problem is to analyze data that is distributed or federated, and cannot be brought into a centralized place due to privacy/security considerations, or due to sheer volume.", "While deep neural networks (DNNs) have achieved high performance on a variety of tasks, there is still scope for improvement, especially in applications where data is scarce, costly or restricted. Research of interest includes generating good quality synthetic datasets, data augmentation methods, attacks on DNNs and identifying deep fakes, making DNNs robust to attacks and identification by augmenting datasets, building interpretable methods, etc."]
+  },
+  {
+    "id":8,
+    "HeadingText":"",
+    "SubHeadingText":"Data Foundation Overview",
+    "Paragraphs":["Part of the Data Foundation activity is to promote overall research to produce novel algorithms and improve existing algorithms for data analytics and machine learning. Of specific interest is the effective application of these algorithms to socially relevant applications. Another interesting research problem is to analyze data that is distributed or federated, and cannot be brought into a centralized place due to privacy/security considerations, or due to sheer volume.", "While deep neural networks (DNNs) have achieved high performance on a variety of tasks, there is still scope for improvement, especially in applications where data is scarce, costly or restricted. Research of interest includes generating good quality synthetic datasets, data augmentation methods, attacks on DNNs and identifying deep fakes, making DNNs robust to attacks and identification by augmenting datasets, building interpretable methods, etc."]
+  }
+]

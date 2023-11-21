@@ -1,0 +1,30 @@
+[
+  {
+    "id":1,
+    "HeadingText":"Data Foundation",
+    "Paragraphs":["The Data Foundation will host a library of digital data, and will encompass the technology - platform, infrastructure and manpower to collect, create, curate, annotate, secure and deploy it. It will be a major resource for the technology community, researchers and application developers who need such data for developing solutions driven by AI and analytics in socially-relevant domains such as Healthcare, Mobility, Buildings, Systems, and their application in the Indian context.","Data Foundation is a part of IHub-Data, the Technology Innovation Hub (TIH) at IIIT Hyderabad." ],
+    "ListItems":[],
+    "Image":"/static/images/aboutImages/verticals.png"
+  },
+  {
+    "id":2,
+    "HeadingText":"Mission",
+    "Paragraphs":["Data is critical need for the unfolding AI revolution that is impacting every aspect of our life now. IHub-Data is the Technology Innovation Hub (TIH) @ IIIT Hyderabad that will focus on putting together large scale Datasets as well as develop solutions based on that data through Applied Research. IHub-Data aims to harness the volume & variety of data available in India to put together datasets that will be a valuable resource to researchers all over the world. In addition, technology and applied research efforts will be directed in focus domains (Mobility, Healthcare, Smart Buildings, Systems, India Specific Research Initiatives)."],
+    "ListItems":[],
+    "Image":""
+  },
+  {
+    "id":3,
+    "HeadingText":"Vision",
+    "Paragraphs":["Our vision is to build and share datasets to enable the next generation of India’s systems in the areas of Health, Mobility, Buildings and Systems through AI research and automation thereby improving the quality of living of its citizens."],
+    "ListItems":[],
+    "Image":""
+  },
+  {
+    "id":4,
+    "HeadingText":"Objectives and Goals",
+    "Paragraphs":["The overall goal is to drive AI Innovation and Research by providing a centralized, secure, authenticated open platform for creating, managing and disseminating curated privacy-aware datasets in Healthcare, Mobility, Buildings, Systems and India-specific research domains. This includes the following objectives:"],
+    "ListItems":["Provide the ability for research teams to upload, create and maintain datasets.","Provide AI powered annotation-support for data annotators","Provide an ecosystem to host and disseminate privacy-aware datasets", "Provide an ecosystem to host and disseminate privacy-aware datasets" ],
+    "Image":"/static/images/aboutImages/focus.jpg"
+  }
+]

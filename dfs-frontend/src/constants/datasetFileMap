@@ -1,0 +1,15 @@
+const DATASET_DETAIL_MAP = {
+  upfilename : 'Uploaded Filename',
+  upfilenameMD : 'Uploaded File Details (Md)',
+  databaseId : 'Id',
+  databaseVersionId : 'Version',
+  version_name : 'Version Name',
+  created_date : 'Created',
+  last_edit : 'Last edited',
+  publication_names : 'Publication Names',
+  publication_links : 'Publication Links',
+  verification : 'Verification Status',
+}
+const datasetDetailsMap = (value) => DATASET_DETAIL_MAP[value] ?? value;
+
+export default datasetDetailsMap;

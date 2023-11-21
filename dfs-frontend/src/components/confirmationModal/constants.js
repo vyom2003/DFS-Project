@@ -1,0 +1,4 @@
+export const MODAL_VARIANTS = {
+    CONFIRMATION: "CONFIRMATION",
+    DANGER: "DANGER",
+};

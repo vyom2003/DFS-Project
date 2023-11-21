@@ -1,0 +1,49 @@
+[{
+    "firstname": "Amey",
+    "lastname": "Kudari",
+    "password": "amey",
+    "email": "amey.kudari@students.iiit.ac.in",
+    "institution": "IIIT-H",
+    "designation": "software engineer",
+    "role": "admin"
+}, {
+    "firstname": "Amey",
+    "lastname": "Kudari",
+    "password": "amey",
+    "email": "amey.kudari@students.iiit.ac.in",
+    "institution": "IIIT-H",
+    "designation": "software engineer",
+    "role": "admin"
+}, {
+    "firstname": "User1",
+    "lastname": "Lastname1",
+    "password": "password",
+    "email": "user1.lastname1@gmail.com",
+    "institution": "IIIT-H",
+    "designation": "normal user",
+    "role": "user"
+}, {
+    "firstname": "Amey",
+    "lastname": "Kudari",
+    "password": "amey",
+    "email": "amey.kudari2@students.iiit.ac.in",
+    "institution": "IIIT-H",
+    "designation": "software engineer",
+    "role": "admin"
+}, {
+    "firstname": "Amey3",
+    "lastname": "Kudari",
+    "password": "amey",
+    "email": "amey.kudari3@students.iiit.ac.in",
+    "institution": "IIIT-H",
+    "designation": "software engineer",
+    "role": "admin"
+}, {
+    "firstname": "Amey4",
+    "lastname": "Kudari",
+    "password": "amey",
+    "email": "amey.kudari4@students.iiit.ac.in",
+    "institution": "IIIT-H",
+    "designation": "software engineer",
+    "role": "user"
+}]

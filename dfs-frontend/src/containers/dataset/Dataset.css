@@ -1,0 +1,122 @@
+.data__dataset {
+    display: flex;
+    flex-direction: column;
+}
+
+.data__dataset h2 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 70px;
+    letter-spacing: -0.04em;
+}
+
+.data__dataset-heading {
+    width: 100%;
+    text-align: left;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 4rem;
+}
+
+.data__dataset-heading h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 60px;
+    letter-spacing: -0.04em;
+}
+
+.data__dataset-content {  
+     justify-content: center;
+    padding-bottom: 3rem;
+}
+
+.data__dataset-content p {
+    font-family: var(--font-family);
+    font-size: 17px;
+    line-height: 23px;
+    color: var(--color-text);
+    padding-top: 2rem;
+}
+
+
+.data__dataset-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.data__dataset-container_group {
+   
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-gap: 2rem;
+}
+
+@media screen and (max-width: 1050px) {
+    .data__dataset-container_group {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 1rem 0;
+    }
+
+    .data__dataset-container_group .data__dataset-container_block {
+        width: 240px;
+    }
+
+    .data__dataset-container_group .data__dataset-container_block-image {
+        height: 190px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .data__dataset-container_group {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 2rem 0;
+    }
+
+    .data__dataset-container_group .data__dataset-container_block {
+        width: 320px;
+    }
+
+    .data__dataset-container_group .data__dataset-container_block-image {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .data__dataset-container_group {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .data__dataset-container_group .data__dataset-container_block-image {
+        height: 250px;
+    }
+
+    .data__dataset-heading h1 {
+        font-size: 46px;
+        line-height: 52px;
+    }
+
+    .data__dataset h2 {
+        font-size: 38px;
+        line-height: 46px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .data__dataset-heading h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .data__dataset-heading h2 {
+        font-size: 30px;
+        line-height: 32px;
+    }
+}

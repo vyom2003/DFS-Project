@@ -1,0 +1,166 @@
+.data__about {
+    display: flex;
+}
+/* flex */
+.data__about-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 5rem;
+}
+/* flex flex-1 justify-center items-start flex-col mr-20 */
+.data__about h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 60px;
+    letter-spacing: -0.04em;
+}
+/* font-extrabold text-5xl tracking-tighter*/
+.data__about h2 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: -0.04em;
+    margin-top: 25px;
+}
+/* font-medium text-4xl leading-tight tracking-tighter mt-6 */
+.data__about h3 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: -0.04em;
+    margin-top: 20px;
+}
+/* text-3xl font-normal tracking-tighter mt-5 */
+.data__about a {
+    color: rgb(206, 32, 32);
+}
+/* text-red-600 */
+.data__about-content p {
+    font-family: var(--font-family);
+    font-size: 15px;
+    line-height: 23px;
+    color: var(--color-text);
+    padding-top: 2rem;
+}
+
+/* text-sm pt-8 font-var text-sky-700*/
+@media screen and (max-width: 1050px) {
+    .data__about {
+        flex-direction: column;
+    }
+    /*lg:flex-column */
+    .data__about-content {
+        margin: 0 0 3rem;
+    }
+    /* lg:mx-0 lg:mt-0 mb-12*/
+}
+
+@media screen and (max-width: 650px) {
+    .data__about h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+    /* md:text-4xl md:leading-tight */
+    .data__about p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    /* md:text-base */
+   
+}
+
+@media screen and (max-width: 490px) {
+    .data__about h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+    /* xs:text-3xl */
+    .data__about p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    /* xs:text-sm */
+   
+}
+
+/* Overview -styling */
+
+.data__overview {
+    display: flex;
+}
+/* flex */
+.data__overview-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 5rem;
+}
+/* flex flex-1 justify-center items-start flex-col mr-20 */
+.data__overview h1 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: -0.04em;
+}
+/* font-var font-medium text-4xl tracking-tighter */
+.data__overview-content p {
+    font-family: var(--font-family);
+    font-size: 15px;
+    line-height: 23px;
+    color: var(--color-text);
+    padding-top: 2rem;
+}
+/* font-var text-xm text-sky-700 pt-8 */
+
+@media screen and (max-width: 1050px) {
+    .data__overview {
+        flex-direction: column;
+    }
+    /* lg:flex-col */
+    .data__overview-content {
+        margin: 0 0 3rem;
+    }
+    /* lg:mx-0 lg:mt-0 lg:mb-12 */
+}
+
+@media screen and (max-width: 650px) {
+    .data__overview h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+    /* md:text-4xl */
+    .data__overview p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    /* md:text-base */
+   
+}
+
+@media screen and (max-width: 490px) {
+    .data__overview h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+    /* xs:text-3xl */
+    .data__overview p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    /* xs:text-xs */
+   
+}
+
+.text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.50rem;
+  }
